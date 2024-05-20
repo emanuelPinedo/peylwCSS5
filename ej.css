@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 945px;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    display: flex;
+    flex: 1;
+}
+
+.top{
+    color: yellow;
+    background-color: #020b61;
+    padding: 20px;
+    text-align: left;
+    border: 3px solid red;
+}
+
+.izq{
+    margin-top: 20px;
+    padding: 20px 0;
+    width: 15%;
+    margin-top: 20px;
+    margin-bottom: auto;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    height: 600px;
+}
+
+.color{
+    background-color: black;
+}
+
+.bloque{
+    background-color: cadetblue;
+    padding: 10px;
+    width: auto;
+    display: block;
+    border: 1px solid #444444;
+}
+
+.mid{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: left;
+    padding: 20px;
+    width: 75%;
+    height: 600px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+}
+
+.sub{
+    border: 3px solid red;
+    padding: 20px;
+    background-color: #020b61;
+    color: yellow;
+}
